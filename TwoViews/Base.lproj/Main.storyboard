@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YW2-Lf-WzL">
-                                <rect key="frame" x="16" y="460" width="361" height="358"/>
+                                <rect key="frame" x="16" y="466" width="361" height="352"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j9X-8h-5OH">
-                                <rect key="frame" x="16" y="59" width="361" height="358"/>
+                                <rect key="frame" x="16" y="59" width="361" height="352"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
@@ -37,7 +37,7 @@
                             <constraint firstItem="j9X-8h-5OH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TCj-rC-Rco"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j9X-8h-5OH" secondAttribute="trailing" constant="16" id="a8C-hj-Uay"/>
                             <constraint firstItem="YW2-Lf-WzL" firstAttribute="width" secondItem="j9X-8h-5OH" secondAttribute="width" id="ajH-Ze-G9S"/>
-                            <constraint firstItem="YW2-Lf-WzL" firstAttribute="top" secondItem="j9X-8h-5OH" secondAttribute="bottom" constant="43" id="blM-Zs-eLZ"/>
+                            <constraint firstItem="YW2-Lf-WzL" firstAttribute="top" secondItem="j9X-8h-5OH" secondAttribute="bottom" constant="55" id="blM-Zs-eLZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YW2-Lf-WzL" secondAttribute="bottom" id="eZ9-rm-519"/>
                         </constraints>
                     </view>
